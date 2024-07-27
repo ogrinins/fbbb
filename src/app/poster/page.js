@@ -1,9 +1,9 @@
 "use client";
 
-import styles from "./page.module.css";
+import styles from "../page.module.css";
 import { useEffect, useState } from "react";
 
-export default function Home() {
+export default function Parser() {
   const [groups, setGroups] = useState([]);
   const [numberOfGroups, setNumberOfGroups] = useState(0);
   const [selectedGroups, setSelectedGroups] = useState([]);
